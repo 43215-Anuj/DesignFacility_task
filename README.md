@@ -1,6 +1,22 @@
 # Getting Started with Create React App
 // http://5.181.217.46/DesignFacility/useGETMethodForTheResponse/Anujkumar
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+App requirements:
+
+1) Light weight [smaller components with individual updating]. => Done 
+
+2) Handles JWT. => Done
+
+3) Global CSS styling & animations.  => Done
+
+4) Screen size ranging from 240p-1080p/4-8K. 
+
+5) Maintainable code.   =>Done
+
+ 
+
+[2] Update page using json returned by the address [Link Given] ==> Done
+
+ 
 
 ## Available Scripts
 
