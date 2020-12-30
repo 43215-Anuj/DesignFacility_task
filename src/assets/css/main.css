@@ -20,16 +20,26 @@ code {
 #main {
   margin-top: 10px;
 }
+
 .main-icon {
   position: relative;
   float: left;
+  height: 90%;
+  display: flex;
+  float:left;
+  text-align: left;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  margin: 0 5px;
 }
 
 #main i {
   color: #5FA8D3;
-  margin: 0 5px;
   font-size: 8px;
 }
+
+
 
 #main .main-title {
   position: relative;
@@ -229,6 +239,28 @@ code {
   
 }
 
+#side-header .text {
+  display: flex;
+  float:left;
+  text-align: left;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+}
+#side-header img{
+  width: 100%;
+  border-radius:5px;
+  border: solid 2px #62B6CB;
+  float: right;
+  text-align:  right;
+}
+
+
+#side-header h2 {
+  font-size: 20px;
+  float: left;
+  text-align: left;
+}
 #categories {
   padding: 20px 0;
   

@@ -1,15 +1,19 @@
 import React, {Component} from 'react';
-import {Row, Container} from 'reactstrap';
+import {Col, Row, Container} from 'reactstrap';
 
 
 export default class SideHeader extends Component {
-    render(){
+    render(props){
         return(
             <div id="side-header">
                 <Container>
                     <Row>
-                        <img src={require("./../../assets/img/Group100.png")} alt="icon"/>
-                        <h2>Best of luck!</h2>
+                        <Col className="pic" lg='3' md='3'>
+                            <img src={this.props.avatar} alt="icon"/>
+                        </Col>
+                        <Col className='text' lg='9' md='9 '>
+                            <h2>Best of luck!</h2>
+                        </Col>                        
                     </Row>
                 </Container>
             </div>

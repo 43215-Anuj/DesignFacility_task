@@ -11,8 +11,7 @@ export default class Main extends Component {
           <Row>
             <Col lg='8' md='8'>
               <p className="main-title">Design Facility</p> 
-              <p className="main-icon"><i  className="fa fa-circle" 
-              aria-hidden="true"></i></p>
+                <div className="main-icon"><i  className="fa fa-circle" aria-hidden="true"></i></div>
               <p className="ex-title">{this.props.data ? this.props.data.examTitle : "Loading"}</p>
             </Col>
             <Col lg='4' md='4'>
